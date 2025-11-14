@@ -1,0 +1,33 @@
+/* --- Dark Mode --- */
+body {
+    transition: background-color 0.3s ease-in;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode .card-titles {
+    color: white;
+}
+body.dark-mode .section-titles {
+    color: #DBE3FF;
+}
+/**/
+body.dark-mode .iconsDarkMode path{
+    fill: white;
+}
+/**/
+body.dark-mode #nowShowingUl::-webkit-scrollbar-thumb {
+    background-color: #34fff1
+}
+.controls {
+    transition: background-color 0.4s ease-in;
+
+}
+body.dark-mode .controls {
+    background-color: black;
+    box-shadow: 0 -5px 10px rgba(255, 255, 255, 0.196);
+
+}
